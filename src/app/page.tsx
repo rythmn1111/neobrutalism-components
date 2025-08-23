@@ -114,7 +114,7 @@ export default function Home() {
         <div className="absolute inset-x-0 top-8 px-3 lg:hidden pointer-events-none">
           <HeroStrip />
         </div>
-        <div className="absolute inset-x-0 bottom-8 px-3 lg:hidden pointer-events-none">
+        <div className="absolute inset-x-0 bottom-2 px-3 lg:hidden pointer-events-none">
           <HeroStrip reverse />
         </div>
         <div className="mx-auto w-container max-w-full">
