@@ -245,8 +245,8 @@ export default function CareersPage() {
           </h2>
           
           <p className="text-lg mb-12 max-w-2xl mx-auto">
-            We're always looking for passionate people who understand the telco industry and share our vision for innovative carrier solutions. 
-            Even if you don't see a perfect fit above, we'd love to hear from you.
+            We&apos;re always looking for passionate people who understand the telco industry and share our vision for innovative carrier solutions. 
+            Even if you don&apos;t see a perfect fit above, we&apos;d love to hear from you.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
