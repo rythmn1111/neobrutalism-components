@@ -176,15 +176,15 @@ export default function CareersPage() {
                         </Badge>
                       </div>
                     </div>
-                    <Button
-                      className="flex items-center gap-2 text-main-foreground rounded-base border-2 border-border bg-main px-6 py-2 shadow-shadow transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none"
-                      asChild
-                    >
-                      <Link href={`/careers/${job.id}`}>
-                        Apply Now
-                        <ArrowUpRight className="size-4" />
-                      </Link>
-                    </Button>
+                                         <Button
+                       className="flex items-center gap-2 text-main-foreground rounded-base border-2 border-border bg-main px-6 py-2 shadow-shadow transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none"
+                       asChild
+                     >
+                       <Link href="https://forms.gle/R5drBgSL3CDgZkkT6" target="_blank" rel="noopener noreferrer">
+                         Apply Now
+                         <ArrowUpRight className="size-4" />
+                       </Link>
+                     </Button>
                   </div>
                 </CardHeader>
                 <CardContent className="space-y-6">
