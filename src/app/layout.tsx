@@ -18,37 +18,43 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: {
     default:
-      "Neobrutalism components - Start making neobrutalism layouts today",
-    template: `%s - Neobrutalism components`,
+      "BlueBuild Digital - Your next Content Platform click made by Us",
+    template: `%s - BlueBuild Digital`,
   },
   description:
-    "A collection of neobrutalism-styled components based on shadcn/ui.",
+    "BlueBuild Digital provides innovative content platforms and direct carrier billing solutions to major carriers worldwide.",
   keywords: [
-    "neobrutalism",
-    "neobrutalism components",
-    "neobrutalism tailwind",
-    "react neobrutalism",
-    "react tailwind components",
-    "shadcn components",
-    "shadcn neobrutalism",
+    "direct carrier billing",
+    "content platforms",
+    "mobile payments",
+    "carrier solutions",
+    "telecommunications",
+    "mobile content",
+    "revenue optimization",
+    "global carriers",
   ],
-  authors: [{ name: "Samuel Breznjak", url: "https://github.com/ekmas" }],
+  authors: [{ name: "BlueBuild Digital", url: "https://bluebuilddigital.com" }],
   openGraph: {
     type: "website",
     description:
-      "A collection of neobrutalism-styled components based on shadcn/ui.",
-    images: ["https://www.neobrutalism.dev/preview.png"],
-    url: "https://www.neobrutalism.dev/",
-    title: "Neobrutalism components",
+      "BlueBuild Digital provides innovative content platforms and direct carrier billing solutions to major carriers worldwide.",
+    images: ["/logo.png"],
+    url: "https://bluebuilddigital.com/",
+    title: "BlueBuild Digital",
   },
-  metadataBase: new URL("https://www.neobrutalism.dev/"),
+  metadataBase: new URL("https://bluebuilddigital.com/"),
   twitter: {
     card: "summary_large_image",
-    title: "Neobrutalism components - Start making neobrutalism layouts",
+    title: "BlueBuild Digital - Your next Content Platform click made by Us",
     description:
-      "A collection of neobrutalism-styled components based on shadcn/ui.",
-    images: ["https://www.neobrutalism.dev/preview.png"],
-    creator: "@samuelbreznjak",
+      "BlueBuild Digital provides innovative content platforms and direct carrier billing solutions to major carriers worldwide.",
+    images: ["/logo.png"],
+    creator: "@bluebuilddigital",
+  },
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
   },
 }
 
