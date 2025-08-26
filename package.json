@@ -95,7 +95,7 @@
   "overrides": {
     "react-is": "19.0.0"
   },
-  "packageManager": "pnpm@9.6.0",
+  "packageManager": "bun@1.2.19",
   "engines": {
     "node": ">=20"
   }
