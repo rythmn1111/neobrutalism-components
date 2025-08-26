@@ -37,6 +37,69 @@ const jobOpenings = [
       "Flexible remote work schedule",
       "Potential for full-time conversion"
     ]
+  },
+  {
+    id: 2,
+    title: "AI Developer",
+    department: "AI/ML",
+    location: "Remote",
+    type: "Internship",
+    experience: "0-1 years",
+    description: "Help design and build AI-powered features, from LLM integrations to model-driven services that enhance carrier platforms.",
+    requirements: [
+      "Pursuing a degree in Computer Science, AI/ML, Data Science, or related field",
+      "Proficiency with Python or JavaScript/TypeScript",
+      "Familiarity with ML frameworks (TensorFlow/PyTorch) or LLM APIs",
+      "Understanding of data processing and evaluation best practices"
+    ],
+    benefits: [
+      "Hands-on experience shipping AI features to production",
+      "Mentorship from experienced ML and platform engineers",
+      "Flexible remote work schedule",
+      "Potential for full-time conversion"
+    ]
+  },
+  {
+    id: 3,
+    title: "Software Engineering Intern",
+    department: "Engineering",
+    location: "Remote",
+    type: "Internship",
+    experience: "0-1 years",
+    description: "Work across the stack to build reliable, scalable components for our carrier billing and content platforms.",
+    requirements: [
+      "Pursuing a degree in Computer Science or related field",
+      "Knowledge of JavaScript/TypeScript and modern web frameworks (React/Next.js)",
+      "Basic understanding of APIs, databases, and Git workflows",
+      "Strong problem-solving and debugging skills"
+    ],
+    benefits: [
+      "Real-world experience with production-grade systems",
+      "Mentorship from senior software engineers",
+      "Flexible remote work schedule",
+      "Potential for full-time conversion"
+    ]
+  },
+  {
+    id: 4,
+    title: "Design Intern",
+    department: "Design",
+    location: "Remote",
+    type: "Internship",
+    experience: "0-1 years",
+    description: "Collaborate with product and engineering to craft intuitive, on-brand experiences for carrier solutions.",
+    requirements: [
+      "Pursuing a degree in Design, HCI, or related field",
+      "Proficiency with Figma and rapid prototyping",
+      "Understanding of design systems, accessibility, and UX fundamentals",
+      "Strong collaboration and communication skills"
+    ],
+    benefits: [
+      "Portfolio-worthy projects across web and mobile",
+      "Mentorship from experienced product designers",
+      "Flexible remote work schedule",
+      "Potential for full-time conversion"
+    ]
   }
 ]
 
@@ -180,7 +243,17 @@ export default function CareersPage() {
                        className="flex items-center gap-2 text-main-foreground rounded-base border-2 border-border bg-main px-6 py-2 shadow-shadow transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none"
                        asChild
                      >
-                       <Link href="https://forms.gle/R5drBgSL3CDgZkkT6" target="_blank" rel="noopener noreferrer">
+                       <Link
+                         href={
+                           job.title === "AI Developer"
+                             ? "/careers/ai-developer/training"
+                             : job.title === "Software Engineering Intern"
+                             ? "/careers/software-engineering-intern/training"
+                             : job.title === "Design Intern"
+                             ? "/careers/design-intern/training"
+                             : "/careers/business-development-intern/apply"
+                         }
+                       >
                          Apply Now
                          <ArrowUpRight className="size-4" />
                        </Link>
